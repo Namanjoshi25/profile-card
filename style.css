@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:  hsl(185, 75%, 39%);
+    overflow: hidden;
+    position: relative;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.card{
+    background-color: white;
+    height: 23em;
+    width: 20em;
+    border-radius:10px;
+    box-shadow:-1px 1px 15px -5px rgb(0, 0, 0 );
+      z-index: 1;
+      overflow: hidden;
+      position: relative;
+  
+
+}
+.svg1{
+    position: absolute;
+    top: -80%;
+    left: -25%;
+   
+
+}
+.svg2{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+
+.blue{
+    height: 35%;
+    background-image: url("../profile-card-component-main/images/bg-pattern-card.svg");
+}
+.card img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-95%);
+    border-radius: 50%;
+    border: 5px solid white;
+    z-index: 5;
+}
+.info{
+    margin-top: 3rem;
+    
+}
+
+.info-top{
+   margin-top:4rem;
+   text-align: center;
+   line-height: 1.5rem;
+   padding-bottom: 1rem;
+   
+}
+
+p{color:hsl(0, 0%, 59%);}
+span{
+    font-weight: 700;
+    color: black;
+}
+.info-bottom{
+    display: flex;
+    line-height: 1.5rem;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+@media screen and (max-width:1150px ) {
+    .svg1{
+        top: -82%;
+        left: -16%;
+    }
+    
+}
+
+@media screen and (max-width:1080px ) {
+    .svg1{
+        height: 150%;
+        width: 70%;
+    }
+    
+}
+@media screen and (max-width:784px ) {
+    .svg1{
+        height: 135%;
+        width: 72%;
+    }
+    
+}
+
+@media screen and (max-width:375px ) {
+    .svg1{
+        height: 168%;
+        width: 71%;
+        top: -110%;
+    }
+    }
+    
+
+
+
+
